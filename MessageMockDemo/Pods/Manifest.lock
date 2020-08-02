@@ -1,0 +1,16 @@
+PODS:
+  - MessageMock (1.0)
+
+DEPENDENCIES:
+  - MessageMock (from `../`)
+
+EXTERNAL SOURCES:
+  MessageMock:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MessageMock: 17efd42346cf9d04792dc4e06791908b9ca0fd3e
+
+PODFILE CHECKSUM: d82d697e487c7dfc1ca5bd1d4efd186eff3368c2
+
+COCOAPODS: 1.8.4

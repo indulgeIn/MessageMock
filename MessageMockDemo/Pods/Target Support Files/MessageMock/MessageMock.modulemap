@@ -1,0 +1,6 @@
+framework module MessageMock {
+  umbrella header "MessageMock-umbrella.h"
+
+  export *
+  module * { export * }
+}
