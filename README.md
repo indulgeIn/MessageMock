@@ -1,6 +1,10 @@
 
 # MessageMock
 
+[![CocoaPods](https://img.shields.io/cocoapods/v/MessageMock.svg)](https://cocoapods.org/pods/MessageMock)&nbsp;
+[![CocoaPods](https://img.shields.io/cocoapods/p/MessageMock.svg)](https://github.com/indulgeIn/MessageMock)&nbsp;
+[![License](https://img.shields.io/github/license/indulgeIn/MessageMock.svg)](https://github.com/indulgeIn/MessageMock)&nbsp;
+
 #### 优雅的模拟 Objective-C 方法，对参数、返回值进行任意修改和检查。
 
 #### 原理分析文章：[MessageMock : 优雅的模拟 Objective-C 方法](https://juejin.im/post/6856324772303273992)
@@ -26,7 +30,12 @@
 
 ## CocoaPods
 
-TODO
+1. 在 Podfile 中添加：
+```
+pod 'MessageMocker'
+```
+2. 执行 `pod install` 或 `pod update`。
+3. 导入 `#import <MessageMocker.h>`。
 
 ## 手动导入
 
