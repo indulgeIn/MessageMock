@@ -59,7 +59,7 @@ pod 'MessageMocker'
 
 ### 修改参数
 ```
-	UIView *view = [UIView new];
+    UIView *view = [UIView new];
     NSInteger value = 999;
     
     MessageMocker.build(view, @selector(setTag:)).mockArgument(0, value).start();
@@ -71,7 +71,7 @@ pod 'MessageMocker'
 ### 检查返回值
 
 ```
-	__block unsigned long value = 0;
+    __block unsigned long value = 0;
     
     NSObject *obj = [NSObject new];
     
@@ -88,7 +88,7 @@ pod 'MessageMocker'
 ### 检查参数
 
 ```
-	Class anyCls = NSString.self;
+    Class anyCls = NSString.self;
     
     MessageMocker.build(NSObject.self, @selector(isSubclassOfClass:))
     .checkArgument(0, ^(Class cls){
@@ -115,7 +115,7 @@ pod 'MessageMocker'
 ### 设置/读取命中次数
 
 ```
-	NSObject *value = [NSObject new];
+    NSObject *value = [NSObject new];
     
     MessageMocker *mocker = MessageMocker.build(TestObject.self, @selector(createObj))
     .mockReturn(value)
